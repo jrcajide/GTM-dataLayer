@@ -21,7 +21,7 @@ gtm_articulos.push({
 	'brand': 'El Diario',
 	'category': 'Actualidad/Sociedad',
 	'list': 'Home:2014-08-20',
-	'position': 'MASTER "UNIT" 4/6 (COL LEFT)',
+	'position': 'MASTER UNIT 4/6 (COL LEFT)',
 	'dimension1': 'Sofía Pérez Mendoza' //Autor
 });
 
@@ -32,7 +32,7 @@ gtm_articulos.push({
 	'brand': 'El Diario',
 	'category': 'Cultura/Música',
 	'list': 'Home:2014-08-20',
-	'position': 'MASTER "UNIT" 4/6 (COL RIGHT)',
+	'position': 'MASTER UNI 4/6 (COL RIGHT)',
 	'dimension1': 'Jesús Rocamora' //Autor
 });
 

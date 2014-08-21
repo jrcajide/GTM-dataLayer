@@ -45,11 +45,11 @@ jQuery(function($) {
 		timeToContentEnd = Math.round((contentScrollEnd - scrollStart) / 1000);
 		if (!debugMode) {
 			if (timeToContentEnd < {{CFG_tiemposcroll}}) {
-				dataLayer.push({'customVarKey':'scroller-type', 'customVarValue':'scanner'});
+				dataLayer.push({'dimension4':'scanner'});
 			} else {
-				dataLayer.push({'customVarKey':'scroller-type', 'customVarValue':'reader'});
+				dataLayer.push({'dimension4':'reader', 'metric1': 1});
 			}
-			dataLayer.push({'event':'scroll', 'eventAction':'Final de Página', 'eventLabel':'{{url path}}', 'eventValue':timeToContentEnd});
+			dataLayer.push({'event':'scroll-articulo', 'eventAction':'Final de Página', 'eventLabel':'{{url path}}', 'eventValue':timeToContentEnd});
 		} else {
 			alert('end content section '+ timeToContentEnd);
 		}
