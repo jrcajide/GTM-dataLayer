@@ -5,7 +5,16 @@
 //Check if dataLayer exists or build dataLayer
 dataLayer = (typeof dataLayer !== 'undefined') ? dataLayer : [];
 
-// Build product array
+dataLayer.push({
+	'contentgroup1': '', //Ediciones regionales
+	'contentgroup2': '', //Blog
+	'contentgroup3': 'Home', //Sección
+	'contentgroup4': '', //Autor 
+	'dimension2': '', //Fecha de publicación
+	'dimension3': '', //Longitud del post - GTM
+	'metric1': 5 //Número de lectores - GTM
+});
+
 gtm_articulos = [];
 
 
@@ -18,22 +27,16 @@ dataLayer.push({
 gtm_articulos.push({
 	'name': 'Las familias pagan el 70% de lo que cuesta la gestión privada de guarderías públicas en Madrid',       // Name or ID is required.
 	'id': '290121505',
-	'brand': 'El Diario',
-	'category': 'Actualidad/Sociedad',
-	'list': 'Home:2014-08-20',
-	'position': 'MASTER UNIT 4/6 (COL LEFT)',
-	'dimension1': 'Sofía Pérez Mendoza' //Autor
+	'list': 'Portada:2014-08-20',
+	'position': 101
 });
 
 
 gtm_articulos.push({
 	'name': 'Kurt Vile, mi villano favorito',       // Name or ID is required.
 	'id': '294321157',
-	'brand': 'El Diario',
-	'category': 'Cultura/Música',
-	'list': 'Home:2014-08-20',
-	'position': 'MASTER UNI 4/6 (COL RIGHT)',
-	'dimension1': 'Jesús Rocamora' //Autor
+	'list': 'Portada:2014-08-20',
+	'position': 2
 });
 
 
