@@ -8,9 +8,9 @@ dataLayer.push({
 	'contentgroup2': '', //Blog
 	'contentgroup3': 'Sociedad', //Sección
 	'contentgroup4': 'Sofía Pérez Mendoza', //Autor 
-	'dimension2': '2014-08-20', //Fecha de publicación
-	'dimension3': '2.5k-3k', //Longitud del post - GTM
-	'metric1': 5 //Número de lectores - GTM
+	'dimension1': '2014-08-20', //Fecha de publicación
+	'dimension2': '2.5k-3k', //Longitud del post - GTM
+	'metric1': 5 //Lecturas de artículo - GTM
 });
 
 /*

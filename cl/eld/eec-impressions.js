@@ -10,13 +10,12 @@ dataLayer.push({
 	'contentgroup2': '', //Blog
 	'contentgroup3': 'Home', //Sección
 	'contentgroup4': '', //Autor 
-	'dimension2': '', //Fecha de publicación
-	'dimension3': '', //Longitud del post - GTM
+	'dimension1': '', //Fecha de publicación
+	'dimension2': '', //Longitud del post - GTM
 	'metric1': 5 //Número de lectores - GTM
 });
 
 gtm_articulos = [];
-
 
 dataLayer.push({
 	'ecommerce': {
@@ -30,7 +29,6 @@ gtm_articulos.push({
 	'list': 'Portada:2014-08-20',
 	'position': 101
 });
-
 
 gtm_articulos.push({
 	'name': 'Kurt Vile, mi villano favorito',       // Name or ID is required.
